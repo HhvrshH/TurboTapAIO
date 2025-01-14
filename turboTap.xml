@@ -86,6 +86,11 @@
       VAR_C_CLICKS = Math.floor(Math.random() * (parseInt(VAR_MAX_C) - parseInt(VAR_MIN_C) + 1)) + parseInt(VAR_MIN_C)
       section_end()!
 
+      section_start("", 659506112)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoid2FsbGV0UmVjb3JkZWQiLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmFsc2UiLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfV19*/
+      VAR_WALLETRECORDED = false
+      section_end()!
+
       section_start("", 374944935)!
       /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IldoaWxlRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
       _do(function(){
@@ -119,63 +124,107 @@
          section_end()!
 
          section_start("", 578716027)!
-         /*Dat:eyJzIjoid2FpdGluZ1NlbGVjdG9ycyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoidGltZW91dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMyIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImFsbFJlc3VsdHMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IldBSVRJTkdfUkVTVUxUUyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDFTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDFWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJUWCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWwyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI+TUFUQ0g+Q29uZmlybSBUcmFuc2FjdGlvbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDJWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDNTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJtc2ciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiPk1BVENIPkFwcHJvdmUgU29sYW5hIE1lc3NhZ2UiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWwzVmlzaWJsZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWw0U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiYnV5R0FTIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ij5NQVRDSD5QcmVsb2FkIEdhcyIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDRWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDVTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWw1IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI+TUFUQ0g+PGNhbnZhcyBkYXRhLXNlbnRyeS1lbGVtZW50IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsNVZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsNlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IiIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDYiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsNlZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsN1NhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IiIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsN1Zpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsOFNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IiIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsOFZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsOVNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IiIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsOVZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTBTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMFZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTFTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMVZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMlZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTNTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxMyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxM1Zpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTRTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNFZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTVTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNVZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTZTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNlZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTdTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxNyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxN1Zpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMThTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxOCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxOFZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMTlTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxOSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxOVZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMjBTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwyMCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwyMFZpc2libGUiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfV19*/
-         _call_function(waitingSelectors, { "selectors": ({"sel1":{"sel":"\"\"","visible":true,"saveVariable":""},"sel2":{"sel":"\"\\u003eMATCH\\u003eConfirm Transaction\"","visible":true,"saveVariable":"TX"},"sel3":{"sel":"\"\\u003eMATCH\\u003eApprove Solana Message\"","visible":true,"saveVariable":"MSG"},"sel4":{"sel":"\"\\u003eMATCH\\u003ePreload Gas\"","visible":true,"saveVariable":"BUYGAS"},"sel5":{"sel":"\"\\u003eMATCH\\u003e\\u003ccanvas data-sentry-element\"","visible":true,"saveVariable":""},"sel6":{"sel":"\"\"","visible":true,"saveVariable":""},"sel7":{"sel":"\"\"","visible":true,"saveVariable":""},"sel8":{"sel":"\"\"","visible":true,"saveVariable":""},"sel9":{"sel":"\"\"","visible":true,"saveVariable":""},"sel10":{"sel":"\"\"","visible":true,"saveVariable":""},"sel11":{"sel":"\"\"","visible":true,"saveVariable":""},"sel12":{"sel":"\"\"","visible":true,"saveVariable":""},"sel13":{"sel":"\"\"","visible":true,"saveVariable":""},"sel14":{"sel":"\"\"","visible":true,"saveVariable":""},"sel15":{"sel":"\"\"","visible":true,"saveVariable":""},"sel16":{"sel":"\"\"","visible":true,"saveVariable":""},"sel17":{"sel":"\"\"","visible":true,"saveVariable":""},"sel18":{"sel":"\"\"","visible":true,"saveVariable":""},"sel19":{"sel":"\"\"","visible":true,"saveVariable":""},"sel20":{"sel":"\"\"","visible":true,"saveVariable":""}}), "timeout": (3)})!
+         /*Dat:eyJzIjoid2FpdGluZ1NlbGVjdG9ycyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoidGltZW91dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMyIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImFsbFJlc3VsdHMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IldBSVRJTkdfUkVTVUxUUyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDFTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWwxIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDFWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJUWCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWwyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI+TUFUQ0g+Q29uZmlybSBUcmFuc2FjdGlvbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDJWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDNTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJtc2ciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoic2VsMyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiPk1BVENIPkFwcHJvdmUgU29sYW5hIE1lc3NhZ2UiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWwzVmlzaWJsZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWw0U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiYnV5R0FTIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ij5NQVRDSD5QcmVsb2FkIEdhcyIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDRWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDVTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJMRUFERVJCb2FyZCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWw1IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI+TUFUQ0g+TG9nIGluPC8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWw1VmlzaWJsZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZWw2U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsNiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiPk1BVENIPjxjYW52YXMgZGF0YS1zZW50cnktZWxlbWVudCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDZWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDdTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWw3IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDdWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDhTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWw4IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDhWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDlTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiIiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzZWw5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNlbDlWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDEwU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTBWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDExU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTEiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTFWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDEyU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTJWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDEzU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTNWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE0U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTRWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE1U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTVWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE2U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTYiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTZWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE3U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTdWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE4U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMThWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDE5U2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMTlWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX0seyJpZCI6InNlbDIwU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMjAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2VsMjBWaXNpYmxlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+         _call_function(waitingSelectors, { "selectors": ({"sel1":{"sel":"\"\"","visible":true,"saveVariable":""},"sel2":{"sel":"\"\\u003eMATCH\\u003eConfirm Transaction\"","visible":true,"saveVariable":"TX"},"sel3":{"sel":"\"\\u003eMATCH\\u003eApprove Solana Message\"","visible":true,"saveVariable":"MSG"},"sel4":{"sel":"\"\\u003eMATCH\\u003ePreload Gas\"","visible":true,"saveVariable":"BUYGAS"},"sel5":{"sel":"\"\\u003eMATCH\\u003eLog in\\u003c/\"","visible":true,"saveVariable":"LEADERBOARD"},"sel6":{"sel":"\"\\u003eMATCH\\u003e\\u003ccanvas data-sentry-element\"","visible":true,"saveVariable":""},"sel7":{"sel":"\"\"","visible":true,"saveVariable":""},"sel8":{"sel":"\"\"","visible":true,"saveVariable":""},"sel9":{"sel":"\"\"","visible":true,"saveVariable":""},"sel10":{"sel":"\"\"","visible":true,"saveVariable":""},"sel11":{"sel":"\"\"","visible":true,"saveVariable":""},"sel12":{"sel":"\"\"","visible":true,"saveVariable":""},"sel13":{"sel":"\"\"","visible":true,"saveVariable":""},"sel14":{"sel":"\"\"","visible":true,"saveVariable":""},"sel15":{"sel":"\"\"","visible":true,"saveVariable":""},"sel16":{"sel":"\"\"","visible":true,"saveVariable":""},"sel17":{"sel":"\"\"","visible":true,"saveVariable":""},"sel18":{"sel":"\"\"","visible":true,"saveVariable":""},"sel19":{"sel":"\"\"","visible":true,"saveVariable":""},"sel20":{"sel":"\"\"","visible":true,"saveVariable":""}}), "timeout": (3)})!
          (function() {
          var r = _result_function()
          VAR_WAITING_RESULTS = r
          VAR_TX = r["sel2"]
          VAR_MSG = r["sel3"]
          VAR_BUYGAS = r["sel4"]
+         VAR_LEADERBOARD = r["sel5"]
          })()
          section_end()!
 
-         section_start("", 840436602)!
-         /*Dat:eyJzIjoiZmlsZXN5c3RlbV9yZWFkZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9leHBvcnRlZFByaXZhdGVzLnR4dCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6InRhcF9wcml2YXRlcyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJGcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJUbyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV19*/
-         VAR_TAP_PRIVATES = native("filesystem", "readfile", JSON.stringify({value: VAR_PROJECT_DIRECTORY + "/exportedPrivates.txt",base64:false,from:0,to:0}))
-         section_end()!
-
-         section_start("", 461197659)!
-         /*Dat:eyJzIjoiYnJvd3NlcmphdmFzY3JpcHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciBwcmV2aW91c2x5X2V4cG9ydGVkX3N0cmluZyA9IEpTT04uc3RyaW5naWZ5KGxvY2FsU3RvcmFnZSk7XHJcbnZhciBkYXRhID0gSlNPTi5wYXJzZShwcmV2aW91c2x5X2V4cG9ydGVkX3N0cmluZyk7XHJcbmZvciAodmFyIGtleSBpbiBkYXRhKSB7XHJcbiBsb2NhbFN0b3JhZ2Vba2V5XSA9IGRhdGFba2V5XTtcclxuIH1cclxuIFtbREFUQV1dID0gZGF0YTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         page().script2("var previously_exported_string = JSON.stringify(localStorage);\r\nvar data = JSON.parse(previously_exported_string);\r\nfor (var key in data) \u007b\r\n localStorage[key] = data[key];\r\n \u007d\r\n [[DATA]] = data;",JSON.stringify(_read_variables(["VAR_DATA"])))!
-         var _parse_result = JSON.parse(_result())
-         _write_variables(JSON.parse(_parse_result.variables))
-         if(!_parse_result.is_success)
-         fail(_parse_result.error)
-         section_end()!
-
-         section_start("", 804716986)!
-         /*Dat:eyJzIjoiSnNvbkdldFZhbHVlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0RBVEFdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IndhbGxldCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6InRhcF9wcml2YXRlIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
-         try {
-         VAR_TAP_PRIVATE = JPath.value(VAR_DATA, "wallet");
-         } catch (e) {
-         fail(e);
-         }
-         section_end()!
-
-         section_start("", 568091012)!
-         /*Dat:eyJzIjoic3RyaW5nX2NvbnRhaW5zIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEFQX1BSSVZBVEVTXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzdWJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEFQX1BSSVZBVEVdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImZyb20iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU1RSSU5HX0NPTlRBSU5TIiwiaXNfZGVmIjp0cnVlfV19*/
-         VAR_STRING_CONTAINS = _string_contains(VAR_TAP_PRIVATES,VAR_TAP_PRIVATE);
-         section_end()!
-
-         section_start("", 480659932)!
-         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIVtbU1RSSU5HX0NPTlRBSU5TXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-         _set_if_expression("IVtbU1RSSU5HX0NPTlRBSU5TXV0=");
-         _if(!VAR_STRING_CONTAINS,function(){
+         section_start("", 201477730)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIVtbV0FMTEVUUkVDT1JERURdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV19*/
+         _set_if_expression("IVtbV0FMTEVUUkVDT1JERURdXQ==");
+         _if(!VAR_WALLETRECORDED,function(){
          section_insert()
-            section_start("", 970270379)!
-            /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9leHBvcnRlZFByaXZhdGVzLnR4dCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RBUF9QUklWQVRFXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjazMiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-            native("filesystem", "writefile", JSON.stringify({path: VAR_PROJECT_DIRECTORY + "/exportedPrivates.txt",value: (VAR_TAP_PRIVATE).toString() + "\r\n",base64:false,append:true}))
+            section_start("", 357863067)!
+            /*Dat:eyJzIjoiZmlsZXN5c3RlbV9yZWFkZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9leHBvcnRlZFByaXZhdGVzLnR4dCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6InRhcF9wcml2YXRlcyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJGcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJUbyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV19*/
+            VAR_TAP_PRIVATES = native("filesystem", "readfile", JSON.stringify({value: VAR_PROJECT_DIRECTORY + "/exportedPrivates.txt",base64:false,from:0,to:0}))
+            section_end()!
+
+            section_start("", 659347295)!
+            /*Dat:eyJzIjoiYnJvd3NlcmphdmFzY3JpcHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InZhciBwcmV2aW91c2x5X2V4cG9ydGVkX3N0cmluZyA9IEpTT04uc3RyaW5naWZ5KGxvY2FsU3RvcmFnZSk7XHJcbnZhciBkYXRhID0gSlNPTi5wYXJzZShwcmV2aW91c2x5X2V4cG9ydGVkX3N0cmluZyk7XHJcbmZvciAodmFyIGtleSBpbiBkYXRhKSB7XHJcbiBsb2NhbFN0b3JhZ2Vba2V5XSA9IGRhdGFba2V5XTtcclxuIH1cclxuIFtbREFUQV1dID0gZGF0YTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+            page().script2("var previously_exported_string = JSON.stringify(localStorage);\r\nvar data = JSON.parse(previously_exported_string);\r\nfor (var key in data) \u007b\r\n localStorage[key] = data[key];\r\n \u007d\r\n [[DATA]] = data;",JSON.stringify(_read_variables(["VAR_DATA"])))!
+            var _parse_result = JSON.parse(_result())
+            _write_variables(JSON.parse(_parse_result.variables))
+            if(!_parse_result.is_success)
+            fail(_parse_result.error)
+            section_end()!
+
+            section_start("", 259442366)!
+            /*Dat:eyJzIjoiSnNvbkdldFZhbHVlIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJEYXRhIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0RBVEFdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IndhbGxldCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6InRhcF9wcml2YXRlIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+            try {
+            VAR_TAP_PRIVATE = JPath.value(VAR_DATA, "wallet");
+            } catch (e) {
+            fail(e);
+            }
+            section_end()!
+
+            section_start("", 700977158)!
+            /*Dat:eyJzIjoic3RyaW5nX2NvbnRhaW5zIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEFQX1BSSVZBVEVTXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzdWJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEFQX1BSSVZBVEVdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImZyb20iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU1RSSU5HX0NPTlRBSU5TIiwiaXNfZGVmIjp0cnVlfV19*/
+            VAR_STRING_CONTAINS = _string_contains(VAR_TAP_PRIVATES,VAR_TAP_PRIVATE);
+            section_end()!
+
+            section_start("", 941339976)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIVtbU1RSSU5HX0NPTlRBSU5TXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+            _set_if_expression("IVtbU1RSSU5HX0NPTlRBSU5TXV0=");
+            _if(!VAR_STRING_CONTAINS,function(){
+            section_insert()
+               section_start("", 137287986)!
+               /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9leHBvcnRlZFByaXZhdGVzLnR4dCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RBUF9QUklWQVRFXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDaGVjazMiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+               native("filesystem", "writefile", JSON.stringify({path: VAR_PROJECT_DIRECTORY + "/exportedPrivates.txt",value: (VAR_TAP_PRIVATE).toString() + "\r\n",base64:false,append:true}))
+               section_end()!
+
+            })!
+            section_end()!
+
+            section_start("", 640903523)!
+            /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiV0FMTEVUUkVDT1JERUQiLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+            VAR_WALLETRECORDED = true
             section_end()!
 
          })!
          section_end()!
 
          section_start("", 140495471)!
-         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tUWF1dIHx8IFtbTVNHXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-         _set_if_expression("W1tUWF1dIHx8IFtbTVNHXV0=");
-         _if(VAR_TX || VAR_MSG,function(){
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tUWF1dIHx8IFtbTVNHXV0gfHwgW1tMRUFERVJCT0FSRF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9XX0=*/
+         _set_if_expression("W1tUWF1dIHx8IFtbTVNHXV0gfHwgW1tMRUFERVJCT0FSRF1d");
+         _if(VAR_TX || VAR_MSG || VAR_LEADERBOARD,function(){
          section_insert()
+            section_start("", 436522898)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tMRUFERVJCT0FSRF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9XX0=*/
+            _set_if_expression("W1tMRUFERVJCT0FSRF1d");
+            _if(typeof(VAR_LEADERBOARD) !== "undefined" ? (VAR_LEADERBOARD) : undefined,function(){
+            section_insert()
+               section_start("", 582787803)!
+               /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiMyIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9LHsiaWQiOiJTcGVlZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoidGltZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJhY2N1cmFjeSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJpbnRlbnNpdHkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoibG9uZ0VsZW1lbnRNb3ZlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNob3J0RWxlbWVudE1vdmUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2Nyb2xsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InJhbmRvbU1vdmUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoibWljcm9Nb3ZlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImdvaW5nQmV5b25kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6Im1vdmVBbG9uZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoibG9uZ01heCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJzaG9ydE1heCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJtaXNzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImRlbGF5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InRhcmdldFNjcm9sbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJ0YXJnZXREZWxheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJmaWx0ZXJzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImhvdmVyTW9kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJtYXhSZXBlYXRTa2lwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6Im92ZXJsYXBCeVBvaW50cyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJpbnQiLCJpc19kZWYiOnRydWV9LHsiaWQiOiJyZXZlcnNlU2Nyb2xsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImFkZGl0aW9uYWxFbXVsYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IGRpdiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiBkaXYiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAubWluLWgtXFxbNjQwcHhcXF0gPiBkaXYuZmxleC0xID4gLmZsZXgiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5Mb2cgaW48LyIsInhwYXRoIjoiID5YUEFUSD4gL2h0bWxbQGNsYXNzPVwiX192YXJpYWJsZV82ZTMyNGNcIl0vYm9keVsxXS9kaXZbQGNsYXNzPVwiZ3JpZCBoLWZ1bGwgbWluLWgtZnVsbCBncmlkLWNvbHMtMSBncmlkLXJvd3MtMSBiZy1iZyAqOmNvbC1zcGFuLTEgKjpjb2wtc3RhcnQtMSAqOnJvdy1zcGFuLTEgKjpyb3ctc3RhcnQtMSBvdmVyZmxvdy1oaWRkZW5cIl0vZGl2W0BjbGFzcz1cInJlbGF0aXZlIGZsZXggc206aC1mdWxsIG92ZXJmbG93LWF1dG8gdy1mdWxsIGZsZXgtY29sXCJdL21haW5bQGNsYXNzPVwiZmxleC0xIG1kOm92ZXJmbG93LWF1dG9cIl0vZGl2W0BjbGFzcz1cImZsZXggZmxleC1jb2wgaC1mdWxsIGZsZXgtd3JhcCBnYXAtMTBcIl0vZGl2W0BjbGFzcz1cIm1kOmgtZnVsbCBweC00IG14LWF1dG8gdy1mdWxsIHNtOm1pbi13LVs1NjBweF0gc206bWF4LXctWzU4MHB4XSBzbTpwci0xMCBwYi01IHNtOnBiLTEwXCJdL2RpdltAY2xhc3M9XCJ6LWVsZXZhdGVkIHJvdW5kZWQtWzMycHhdIG1pbi1oLVs2NDBweF0gYm9yZGVyLTQgYm9yZGVyLWJvcmRlci1iYXNlIGJnLXN1cmZhY2UtYmFzZSBweC01IHB5LVsxOHB4XSBmbGV4IGZsZXgtY29sIGdhcC15LTUgaC1mdWxsXCJdL2RpdltAY2xhc3M9XCJmbGV4LTEgcmVsYXRpdmVcIl0vZGl2W0BjbGFzcz1cImZsZXggZmxleC1jb2wgdGV4dC13aGl0ZSBnYXAtNSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgaC1mdWxsXCJdIiwiYXQiOiI3NDUsIDQ2NCIsIndlIjp0cnVlLCJmYSI6ZmFsc2V9fQ==*/
+               /*Browser*/
+               _SELECTOR = "\u003eMATCH\u003eLog in\u003c/";waiter_timeout_next(3000)
+               waiter_nofail_next();
+               wait_element_visible(_SELECTOR)!
+               _if(typeof _Idle != "undefined", function(){
+               _Idle.emulate({useGeneral: true, target: _SELECTOR})!
+               })!
+               _if_else(typeof _Idle != "undefined" && _Idle.additionalEmulationEnabled(), function(){
+               _Idle.moveAndClickOn(_SELECTOR,{holdCtrl: false, clickType: "left", wait: false, moveSettings:  {} })!
+               }, function(){
+               _call(_random_point, {})!
+               _if(_result().length > 0, function(){
+               move( {} )!
+               get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
+               _call(_clarify, {} )!
+               mouse(X,Y)!
+               })!
+               })!
+               section_end()!
+
+            })!
+            section_end()!
+
             section_start("", 398431901)!
             /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIyMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDMpID4gZGl2ID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDMpID4gZGl2ID4gc3BhbiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IDpudGgtY2hpbGQoMykgPiAuY3NzLTE3NW9pMnIgPiAuZm9udF9ib2R5IiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+QXBwcm92ZTwiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwicm9vdFwiKS9zcGFuW0BjbGFzcz1cIiBfZHNwX2NvbnRlbnRzXCJdL3NwYW5bQGNsYXNzPVwiIHRfZGFyayBfZHNwX2NvbnRlbnRzIGlzX1RoZW1lXCJdL2RpdltAY2xhc3M9XCJfZHNwLWZsZXggX2FpLXN0cmV0Y2ggX2ZkLWNvbHVtbiBfZmItYXV0byBfYnhzLWJvcmRlci1ib3ggX21paC0wcHggX21pdy0wcHggX2ZzLTAgX3Bvcy1hYnNvbHV0ZSBfaC02MDBweCBfdy0xMDAzNyBfemktMTAwMDAwXCJdL2RpdlsxXS9kaXZbQGNsYXNzPVwiX2RzcC1mbGV4IF9haS1zdHJldGNoIF9mZC1jb2x1bW4gX2ZiLWF1dG8gX2J4cy1ib3JkZXItYm94IF9wb3MtcmVsYXRpdmUgX21paC0wcHggX21pdy0wcHggX2ZzLTEgX2ZnLTEgX3B0LTEzMTYzMzMxMjFcIl0vZGl2W0BjbGFzcz1cIl9kc3AtZmxleCBfYWktc3RyZXRjaCBfZmQtY29sdW1uIF9mYi1hdXRvIF9ieHMtYm9yZGVyLWJveCBfcG9zLXJlbGF0aXZlIF9taWgtMHB4IF9taXctMHB4IF9mcy0xIF9mZy0xIF9wdC0xMzE2MzMzMTIxXCJdL2RpdltAY2xhc3M9XCJfZHNwLWZsZXggX2FpLXN0cmV0Y2ggX2ZiLWF1dG8gX2J4cy1ib3JkZXItYm94IF9wb3MtcmVsYXRpdmUgX21paC0wcHggX21pdy0wcHggX2ZzLTAgX3B0LTEzMTYzMzI5OTcgX3ByLTEzMTYzMzMxMjEgX3BiLTEzMTYzMzMxMjEgX3BsLTEzMTYzMzMxMjEgX2ZkLXJvd1wiXS9kaXZbQGNsYXNzPVwiX2RzcC1mbGV4IF9haS1zdHJldGNoIF9mZC1jb2x1bW4gX2J4cy1ib3JkZXItYm94IF9wb3MtcmVsYXRpdmUgX21paC0wcHggX21pdy0wcHggX2ZnLTEgX2ZzLTEgX2ZiLTBweCBfcGUtYXV0b1wiXS9kaXZbQGNsYXNzPVwiY3NzLTE3NW9pMnIgci0xbG9xdDIxIHItMW90Z243MyByLTFhd296d3kgci0xcTliZHN4IHItMTh1MzdpeiByLTE3NzdmY2kgci0zbzR6ZXIgci1scnZpYnIgci0xM3F6MXV1XCJdL3NwYW5bQGNsYXNzPVwiZm9udF9ib2R5IF9kc3AtaW5saW5lIF9ieHMtYm9yZGVyLWJveCBfd3ctYnJlYWstd29yZCBfd2hpdGVTcGFjZS1wcmUtd3JhcCBfbXQtMHB4IF9tci0wcHggX21iLTBweCBfbWwtMHB4IF9jb2wtMTEzMjM0MTIwNiBfZm9zLTE4cHggX2Zvdy02MDAgX2ZmLTI5OTY2NzAxNFwiXSIsImF0IjoiNzY0LCA1NTUiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
             /*Browser*/
@@ -2294,11 +2343,12 @@
                section_end()!
 
                section_start("", 206585856)!
-               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3t3b3JrTW9kZX19ID09IFwiT3BlbiBSYW5nZSBvZiBBY2NzXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjgzMDM4NTM5NSwibWFzdGVyIjo2NTcxMDMyNjksImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7d29ya01vZGV9fSA9PSBcIk9wZW4gUmFuZ2Ugb2YgQWNjc1wiIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6ZmFsc2V9XX0=*/
                RS("workMode", false, false)!
-               RESOURCE_427089 = _result().get()
+               RESOURCE_130852 = _result().get()
+               _cycle_params().if_else = RESOURCE_130852 == "Open Range of Accs";
                _set_if_expression("e3t3b3JrTW9kZX19ID09ICJPcGVuIFJhbmdlIG9mIEFjY3Mi");
-               _if(RESOURCE_427089 == "Open Range of Accs",function(){
+               _if(_cycle_params().if_else,function(){
                section_insert()
                   section_start("", 886716453)!
                   /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVEhSRUFEX0lOREVYIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEhSRUFEX0lOREVYXV0tMSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
@@ -2306,6 +2356,19 @@
                   section_end()!
 
                })!
+               section_end()!
+
+               section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 830385395)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6ODMwMzg1Mzk1LCJtYXN0ZXIiOjIwNjU4NTg1NiwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3t3b3JrTW9kZX19ID09IFwiT3BlbiBSYW5nZSBvZiBBY2NzXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24iLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZSwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+               _if(!_cycle_params().if_else,function(){
+               section_insert()
+                  section_start("", 11142505)!
+                  /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVEhSRUFEX0lOREVYIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVEhSRUFEX0lOREVYXV0tMiIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
+                  VAR_THREAD_INDEX = VAR_THREAD_INDEX-2
+                  section_end()!
+
+               })!
+               delete _cycle_params().if_else;
                section_end()!
 
                section_start("", 491793644)!
@@ -2428,8 +2491,8 @@
                      section_end()!
 
                      section_start("", 792119133)!
-                     /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InxbW1NPTF1dfCBTdGFydCB3b3JrIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InxbW1NPTF1dfCBTdGFydCB3b3JrIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmVlbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
-                     logger_log({"color": ("green"), "en": ("|" + VAR_SOL + "| Start work"), "level": ("info"), "ru": ("|" + VAR_SOL + "| Start work")})
+                     /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InxbW1NPTF1dfCBTdGFydCB3b3JrIHx8IFAuIFtbQ09VTlRFUl1dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiZW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InxbW1NPTF1dfCBTdGFydCB3b3JrIHx8IFAuIFtbQ09VTlRFUl1dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoibGV2ZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImluZm8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6ImNvbG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmVlbiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
+                     logger_log({"color": ("green"), "en": ("|" + VAR_SOL + "| Start work || P. " + VAR_COUNTER), "level": ("info"), "ru": ("|" + VAR_SOL + "| Start work || P. " + VAR_COUNTER)})
                      section_end()!
 
                      section_start("", 363557185)!
@@ -2579,7 +2642,7 @@
       section_start("", 730692442)!
       /*Dat:eyJzIjoiYnJvd3NlcnNldHRpbmdzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJXaWRldmluZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJTYWZlQnJvd3NpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiQ29tcG9uZW50cyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJXZWJydGMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiV2VicnRjSXBzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkNhbnZhcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZW5hYmxlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2FudmFzTm9pc2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiV2ViZ2wiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiV2ViZ2xOb2lzZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJXZWJnbFZlbmRvciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJXZWJnbFJlbmRlcmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkF1ZGlvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IkF1ZGlvTm9pc2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiUVVJQyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJNYXhGUFMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkV4dGVuc2lvbnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFmbGttZmhlYmVkYmppb2lwZ2xnY2JjbW5icGdsaW9mIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQnJvd3NlclZlcnNpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRlZmF1bHQiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJDb21tYW5kTGluZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiLS1sYW5nPWVuLVVTXG4tLW11dGUtYXVkaW8iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1BST0pFQ1RfRElSRUNUT1JZXV1cXFByb2ZpbGVzXFxbW0NPVU5URVJdXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IkxvYWRGUEZyb21Gb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6IktleSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3twcmludEFQSX19IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiTG9hZFByb3h5RnJvbUZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmFsc2UiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9XX0=*/
       RS("printAPI", false, false)!
-      RESOURCE_972197 = _result().get()
+      RESOURCE_441304 = _result().get()
       _require_extensions("aflkmfhebedbjioipglgcbcmnbpgliof")!
       _BrowserAutomationStudio_Settings = BrowserAutomationStudio_ParseBrowserSettings(
       {
@@ -2609,7 +2672,7 @@
       load_proxy: ("false"),
       load_fp: ("true"),
       settings: _BrowserAutomationStudio_Settings,
-      key: (RESOURCE_972197),
+      key: (RESOURCE_441304),
       }])!
       }, function(){
       _settings(_BrowserAutomationStudio_Settings)!
@@ -2941,7 +3004,7 @@
      <ConnectionPassword></ConnectionPassword>
      <ScriptName>ScriptName</ScriptName>
      <ProtectionStrength>4</ProtectionStrength>
-     <UnusedModules>URL;InMail;PhoneVerification;ClickCaptcha</UnusedModules>
+     <UnusedModules>ClickCaptcha;InMail;URL;PhoneVerification</UnusedModules>
      <ScriptIcon>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</ScriptIcon>
      <IsCustomIcon>false</IsCustomIcon>
      <HideBrowsers>false</HideBrowsers>
@@ -2961,16 +3024,19 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
+ToolboxHeight=780
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
+ScenarioWidth=786
+Zoom=100
 IsMaximized=false
 Restart=true
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false
-Languages=&quot;Node,22.11.0&quot;
-Modules=&quot;Node,22.11.0,ccxt,*&quot;
+Languages=&quot;&quot;
+Modules=&quot;&quot;
 Helper=&quot;disable&quot;
 Canvas=&quot;enable&quot;
 CanvasNoise=&quot;&quot;
@@ -2994,27 +3060,28 @@ Detector=false
 --disable-auto-reload</ChromeCommandLine>
      <ModulesMetaJson>{
     &quot;Archive&quot;: false,
-    &quot;FTP&quot;: false,
+    &quot;Bitget_Withdraw&quot;: true,
+    &quot;Checksum&quot;: false,
     &quot;Excel&quot;: false,
-    &quot;SQL&quot;: false,
-    &quot;ReCaptcha&quot;: false,
+    &quot;FTP&quot;: false,
     &quot;FunCaptcha&quot;: false,
     &quot;HCaptcha&quot;: false,
-    &quot;SmsReceive&quot;: false,
-    &quot;Checksum&quot;: false,
-    &quot;MailDeprecated&quot;: false
+    &quot;MailDeprecated&quot;: false,
+    &quot;ReCaptcha&quot;: false,
+    &quot;SQL&quot;: false,
+    &quot;SmsReceive&quot;: false
 }
 </ModulesMetaJson>
-     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;ACCSCHECKINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ACCSLIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ADDRESS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_HEIGHT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_WIDTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BUYGAS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;B_SLEEP_F&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;B_SLEEP_T&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CACHE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTSS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTSSS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURRENT_URL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_ABSOLUTE_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_ABSOLUTE_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_RELATIVE_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_RELATIVE_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;C_CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;C_N&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATE_NOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATE_NOW1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISCORD&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISCORDS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISWINDOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DOMIANCLAIMED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DOPCLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;EMAIL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_BASE_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_IS_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_LAST_MODIFIED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_SIZE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;HISTORY_MSG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IDSELECT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITESUCCESS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_CITY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_COUNTRY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_DST_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_LATITUDE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_LONGITUDE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_TIMEZONE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_VALID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LASTCHECKTIME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LOGINED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MAX_C&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MINTDOMAIN&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MIN_C&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MSG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_DIS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_REG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_TWITTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEWINVITES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEWINVITES_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEW_OBJECT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_IS_LOADED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SCROLL_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SCROLL_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SOL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SPEED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STRING_CONTAINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;S_F&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;S_T&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TAP_PRIVATE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TAP_PRIVATES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMESLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERWORK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERWORK1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAITING_RESULTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:DATE_NOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:READWITER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:TIME&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;ACCSLIST\&quot;]&quot;:true,&quot;[\&quot;HISTORY_MSG\&quot;]&quot;:false,&quot;[\&quot;ACCSCHECKINS\&quot;]&quot;:false,&quot;[\&quot;NEW_OBJECT\&quot;]&quot;:false,&quot;[\&quot;INVITES\&quot;]&quot;:false,&quot;[\&quot;COUNTSS\&quot;]&quot;:true}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;accsList&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;bigSleep&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;buyType&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;cNumber&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;countPreset&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;from&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;opentype&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;printAPI&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;reduseLoading&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;reinveting&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;to&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;workMode&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;wallet\&quot;]&quot;:false,&quot;[\&quot;seed\&quot;]&quot;:false,&quot;[\&quot;discords\&quot;]&quot;:false,&quot;[\&quot;proxy\&quot;]&quot;:false,&quot;[\&quot;adData\&quot;]&quot;:false,&quot;[\&quot;thread\&quot;]&quot;:false,&quot;[\&quot;threads\&quot;]&quot;:false,&quot;[\&quot;globthreds\&quot;]&quot;:false,&quot;[\&quot;repeats\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;ACCSCHECKINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ACCSLIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ADDRESS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_HEIGHT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_WIDTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BUYGAS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;B_SLEEP_F&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;B_SLEEP_T&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CACHE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTSS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COUNTSSS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;COW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURRENT_URL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_ABSOLUTE_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_ABSOLUTE_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_RELATIVE_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CURSOR_RELATIVE_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;C_CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;C_N&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATE_NOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATE_NOW1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISCORD&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISCORDS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DISWINDOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DOMIANCLAIMED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DOPCLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;EMAIL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_BASE_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_IS_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_LAST_MODIFIED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_SIZE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;HISTORY_MSG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IDSELECT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;INVITESUCCESS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_CITY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_COUNTRY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_DST_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_LATITUDE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_LONGITUDE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_TIMEZONE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IPINFO_VALID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LASTCHECKTIME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LEADERBOARD&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LOGINED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MAX_C&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MINTDOMAIN&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MIN_C&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MSG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_DIS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_REG&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEED_TWITTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEWINVITES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEWINVITES_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NEW_OBJECT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRIVATES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RANDOM_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_IS_LOADED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SCROLL_X&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SCROLL_Y&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SOL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SPEED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STRING_CONTAINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;S_F&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;S_T&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TAP_PRIVATE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TAP_PRIVATES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMESLEEP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERWORK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TWITTERWORK1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAITING_RESULTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WALLETRECORDED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:DATE_NOW&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:READWITER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:TIME&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;ACCSLIST\&quot;]&quot;:true,&quot;[\&quot;HISTORY_MSG\&quot;]&quot;:false,&quot;[\&quot;ACCSCHECKINS\&quot;]&quot;:false,&quot;[\&quot;NEW_OBJECT\&quot;]&quot;:false,&quot;[\&quot;INVITES\&quot;]&quot;:false,&quot;[\&quot;COUNTSS\&quot;]&quot;:true}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;accsList&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;bigSleep&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;buyType&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;cNumber&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;countPreset&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;from&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;opentype&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;printAPI&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;reduseLoading&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;reinveting&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;to&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;workMode&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;wallet\&quot;]&quot;:false,&quot;[\&quot;seed\&quot;]&quot;:false,&quot;[\&quot;discords\&quot;]&quot;:false,&quot;[\&quot;proxy\&quot;]&quot;:false,&quot;[\&quot;adData\&quot;]&quot;:false,&quot;[\&quot;thread\&quot;]&quot;:false,&quot;[\&quot;threads\&quot;]&quot;:false,&quot;[\&quot;globthreds\&quot;]&quot;:false,&quot;[\&quot;repeats\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -3027,10 +3094,10 @@ Detector=false
      <ModelList>
           <Model>
                <Name> </Name>
-               <Description ru=" " en=" "/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en=" " ru=" "/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint ru="" en=""/>
+               <Hint en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Information</Type>
@@ -3038,18 +3105,18 @@ Detector=false
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>Information</AllowedTypes>
-               <Info ru="# TURBO TAP&#10;[Develop by HVRSH](https://t.me/hashvers)&#10;&#10;**Version 0.1**" en="# TURBO TAP&#10;[Develop by HVRSH](https://t.me/hashvers)&#10;&#10;**Version 0.1**"/>
-               <ComputedInfo ru="&lt;h1&gt;TURBO TAP&lt;/h1&gt;&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/hashvers&quot;&gt;Develop by HVRSH&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Version 0.1&lt;/strong&gt; &lt;/p&gt;" en="&lt;h1&gt;TURBO TAP&lt;/h1&gt;&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/hashvers&quot;&gt;Develop by HVRSH&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Version 0.1&lt;/strong&gt; &lt;/p&gt;"/>
+               <Info en="# TURBO TAP&#10;[Develop by HVRSH](https://t.me/hashvers)&#10;&#10;**Version 0.1**" ru="# TURBO TAP&#10;[Develop by HVRSH](https://t.me/hashvers)&#10;&#10;**Version 0.1**"/>
+               <ComputedInfo en="&lt;h1&gt;TURBO TAP&lt;/h1&gt;&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/hashvers&quot;&gt;Develop by HVRSH&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Version 0.1&lt;/strong&gt; &lt;/p&gt;" ru="&lt;h1&gt;TURBO TAP&lt;/h1&gt;&lt;p&gt;&lt;a style=&quot;color:#ffffff;&quot; href=&quot;https://t.me/hashvers&quot;&gt;Develop by HVRSH&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Version 0.1&lt;/strong&gt; &lt;/p&gt;"/>
                <UnderSpoiler>0</UnderSpoiler>
-               <SpoilerTitle ru="" en=""/>
+               <SpoilerTitle en="" ru=""/>
           </Model>
           <Defaults/>
           <Model>
                <Name>printAPI</Name>
-               <Description ru="FingerPrint Key" en="FingerPrint Key"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="FingerPrint Key" ru="FingerPrint Key"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Ключ для получения отпечатков. Покупать тут https://fp.bablosoft.com/&#10;" en="Key for prints https://fp.bablosoft.com/&#10;"/>
+               <Hint en="Key for prints https://fp.bablosoft.com/&#10;" ru="Ключ для получения отпечатков. Покупать тут https://fp.bablosoft.com/&#10;"/>
                <VisibilityConditionValue>Profiles Setup,Open Accs List,Open Range of Accs</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -3065,10 +3132,10 @@ Detector=false
           <Defaults/>
           <Model>
                <Name>workMode</Name>
-               <Description ru="Work Mode" en="Work Mode"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Work Mode" ru="Work Mode"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Режим работы  Setup Profiles &amp; Accounts - установка профилей, прокси, отпечатков, регестрация аккаунта, Open Range of Accs - Запустить в работу нужные диапазон профилей(он должен уже быть создан через Profiles Setup), Open Accs List - запустить список с определенных профилей(пример 1,5,3)&#10;" en="Setup Profiles &amp; Accounts mode - installation of profiles, proxies, fingerprints, account registration, Open Range of Accs - Launch the required range of profiles (it should already be created via Profiles Setup), Open Accs List - launch a list with specific profiles (example 1,5,3)"/>
+               <Hint en="Setup Profiles &amp; Accounts mode - installation of profiles, proxies, fingerprints, account registration, Open Range of Accs - Launch the required range of profiles (it should already be created via Profiles Setup), Open Accs List - launch a list with specific profiles (example 1,5,3)" ru="Режим работы  Setup Profiles &amp; Accounts - установка профилей, прокси, отпечатков, регестрация аккаунта, Open Range of Accs - Запустить в работу нужные диапазон профилей(он должен уже быть создан через Profiles Setup), Open Accs List - запустить список с определенных профилей(пример 1,5,3)&#10;"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -3085,8 +3152,8 @@ Open Accs List</Values>
           <Defaults/>
           <Model>
                <Name>accsList</Name>
-               <Description ru="Accs" en="Accs"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Accs" ru="Accs"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>0</HintVisible>
                <Hint en=""/>
                <VisibilityConditionValue>Open Accs List</VisibilityConditionValue>
@@ -3104,10 +3171,10 @@ Open Accs List</Values>
           <Defaults/>
           <Model>
                <Name>from</Name>
-               <Description ru="From" en="From"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="From" ru="From"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="From, To - настройка диапазона для режимов запуска  Profiles Setup и Open Range of Accs&#10;" en=" From, To - range settings for Profiles Setup and Open Range of Accs modes.&#10;"/>
+               <Hint en=" From, To - range settings for Profiles Setup and Open Range of Accs modes.&#10;" ru="From, To - настройка диапазона для режимов запуска  Profiles Setup и Open Range of Accs&#10;"/>
                <VisibilityConditionValue>Open Range of Accs,Setup Profiles&amp;Accounts,Renew Print</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -3122,10 +3189,10 @@ Open Accs List</Values>
           <Defaults/>
           <Model>
                <Name>to</Name>
-               <Description ru="To" en="To"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="To" ru="To"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="From, To - настройка диапазона для режимов запуска  Profiles Setup и Open Range of Accs&#10;" en=" From, To - range settings for Profiles Setup and Open Range of Accs modes.&#10;"/>
+               <Hint en=" From, To - range settings for Profiles Setup and Open Range of Accs modes.&#10;" ru="From, To - настройка диапазона для режимов запуска  Profiles Setup и Open Range of Accs&#10;"/>
                <VisibilityConditionValue>Open Range of Accs,Setup Profiles&amp;Accounts,Renew Print</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -3140,10 +3207,10 @@ Open Accs List</Values>
           <Defaults/>
           <Model>
                <Name>opentype</Name>
-               <Description ru="Open Type" en="Open Type"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Open Type" ru="Open Type"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Логика открытия профилей Right now - бас не будет ограничивать максимальное количество запущенных профилей одновременно, будет пытатсья запустить все сразу, по мошностям пк Custom number - ограничение количества одновременно запущенных потоков. Остальные потоки будут жать свой очереди.&#10;" en=" Logic for opening profiles: Right now - will attempt to launch all profiles immediately based on PC capacity without limiting the maximum number of profiles running simultaneously.  Custom number - limit the number of concurrently running streams. Remaining streams will wait their turn.&#10;"/>
+               <Hint en=" Logic for opening profiles: Right now - will attempt to launch all profiles immediately based on PC capacity without limiting the maximum number of profiles running simultaneously.  Custom number - limit the number of concurrently running streams. Remaining streams will wait their turn.&#10;" ru="Логика открытия профилей Right now - бас не будет ограничивать максимальное количество запущенных профилей одновременно, будет пытатсья запустить все сразу, по мошностям пк Custom number - ограничение количества одновременно запущенных потоков. Остальные потоки будут жать свой очереди.&#10;"/>
                <VisibilityConditionValue>Open Accs List,Open Range of Accs</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>Select</Type>
@@ -3159,10 +3226,10 @@ Custom number</Values>
           <Defaults/>
           <Model>
                <Name>cNumber</Name>
-               <Description ru="Custrom Number" en="Custrom Number"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Custrom Number" ru="Custrom Number"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Максимальное число одновременно запущеных профилей" en="Maximum number of concurrently running profiles."/>
+               <Hint en="Maximum number of concurrently running profiles." ru="Максимальное число одновременно запущеных профилей"/>
                <VisibilityConditionValue>Custom number</VisibilityConditionValue>
                <VisibilityConditionVariable>opentype</VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -3177,10 +3244,10 @@ Custom number</Values>
           <Defaults/>
           <Model>
                <Name>bigSleep</Name>
-               <Description ru="Pause between sets (sec)" en="Pause between sets (sec)"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Pause between sets (sec)" ru="Pause between sets (sec)"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Пауза между подходами, имитаця человека" en="Pause between sets, human imitation"/>
+               <Hint en="Pause between sets, human imitation" ru="Пауза между подходами, имитаця человека"/>
                <VisibilityConditionValue>Open Range of Accs,Open Accs List</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -3196,10 +3263,10 @@ Custom number</Values>
           <Defaults/>
           <Model>
                <Name>buyType</Name>
-               <Description ru="Count of buying" en="Count of buying"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Count of buying" ru="Count of buying"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Сколько покупать кликов на каждом акке" en="How much buy clicks on each acc"/>
+               <Hint en="How much buy clicks on each acc" ru="Сколько покупать кликов на каждом акке"/>
                <VisibilityConditionValue>Open Range of Accs,Open Accs List</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>Select</Type>
@@ -3217,10 +3284,10 @@ RANDOM</Values>
           <Defaults/>
           <Model>
                <Name>countPreset</Name>
-               <Description ru="Count of clicks by 1 try" en="Count of clicks by 1 try"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Count of clicks by 1 try" ru="Count of clicks by 1 try"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Сколько кликать  за один подход." en="How much do clicks by one set"/>
+               <Hint en="How much do clicks by one set" ru="Сколько кликать  за один подход."/>
                <VisibilityConditionValue>Open Range of Accs,Open Accs List</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -3236,10 +3303,10 @@ RANDOM</Values>
           <Defaults/>
           <Model>
                <Name>reduseLoading</Name>
-               <Description ru="Reduse Loading" en="Reduse Loading"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Reduse Loading" ru="Reduse Loading"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Убрать загрузку некторых элементов. возможно понизит нагрузку" en="Remove loading of some elements. Possibly reduce loading"/>
+               <Hint en="Remove loading of some elements. Possibly reduce loading" ru="Убрать загрузку некторых элементов. возможно понизит нагрузку"/>
                <VisibilityConditionValue>Open Range of Accs,Open Accs List</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>Checkbox</Type>
@@ -3252,10 +3319,10 @@ RANDOM</Values>
           <Defaults/>
           <Model>
                <Name>reinveting</Name>
-               <Description ru="Reinveting" en="Reinveting"/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en="Reinveting" ru="Reinveting"/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>1</HintVisible>
-               <Hint ru="Записывать инвайты после регистрации в файл, чтобы использовать их в следующих регистрациях" en="Save invites after registration to a file to use them in future registrations"/>
+               <Hint en="Save invites after registration to a file to use them in future registrations" ru="Записывать инвайты после регистрации в файл, чтобы использовать их в следующих регистрациях"/>
                <VisibilityConditionValue>Setup Profiles&amp;Accounts</VisibilityConditionValue>
                <VisibilityConditionVariable>workMode</VisibilityConditionVariable>
                <Type>Checkbox</Type>
@@ -3268,10 +3335,10 @@ RANDOM</Values>
           <Defaults/>
           <Model>
                <Name> </Name>
-               <Description ru=" " en=" "/>
-               <SectionName ru="Setup" en="Setup"/>
+               <Description en=" " ru=" "/>
+               <SectionName en="Setup" ru="Setup"/>
                <HintVisible>0</HintVisible>
-               <Hint ru="" en=""/>
+               <Hint en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Information</Type>
@@ -3279,10 +3346,10 @@ RANDOM</Values>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>Information</AllowedTypes>
-               <Info ru="**Работа с файлами**&#10;&#10;Логика работы софта заключается в том, что везде соответствие данных во всех файлах построчное. То есть, Профиль под индексом 0 будет работать с информацией из строк с индексом 0, профиль с индексом 5 будет работать с строками с индексом 5 и т.п.&#10;&#10;Поэтому все файлы для корректной работы должны иметь одинаковое количество строк.&#10;&#10;Сначала запускаемся в режиме Setup Profiles&amp;Accounts чтобы войти либо зарегистривровать аккаунты. После того как профиля созданы запускаемся в режиме Open Range of Accs либо Open Accs List.&#10;&#10;**Важно! Софт не сможет войти в сервер Eclipse, потому аккаунт уже должен быть там предварительно**&#10;&#10;**Файлы, которые нужно заполнить**&#10;&#10;- `privates.txt` - Приватные ключи от ваших аккаунтов.&#10;- `proxies.txt` - прокси в формате логин:пароль@ип:порт&#10;- `invites.txt` - сюда можно закинуть либо свои инвайты, либо собирать софтом с новых аккаунтов&#10;- `discords.txt` - dis tokens&#10;- `twitters.txt` - twitter tokens" en="&#10;**Working with Files**&#10;&#10;The logic of the software operation is that data correspondence in all files is line-by-line. That is, the Profile at index 0 will work with information from lines at index 0, the profile at index 5 will work with lines at index 5, and so on.&#10;&#10;Therefore, all files must have the same number of lines to work correctly.&#10;&#10;First, run in **Setup Profiles &amp; Accounts** mode to log in or register accounts. Once the profiles are created, run in **Open Range of Accs** or **Open Accs List** mode.&#10;&#10;**Important! The software will not be able to log in to the Eclipse server, so the account must already be there in advance**&#10;&#10;**Files that need to be filled out**&#10;&#10;- `privates.txt` - Private keys of your accounts.&#10;- `proxies.txt` - proxies in the format `login:password@ip:port`.&#10;- `invites.txt` - You can put either your invites here or collect new ones with the software from new accounts.&#10;- `discords.txt` - dis tokens&#10;- `twitters.txt` - twitter tokens"/>
-               <ComputedInfo ru="&lt;p&gt;&lt;strong&gt;Работа с файлами&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;Логика работы софта заключается в том, что везде соответствие данных во всех файлах построчное. То есть, Профиль под индексом 0 будет работать с информацией из строк с индексом 0, профиль с индексом 5 будет работать с строками с индексом 5 и т.п. &lt;/p&gt;&lt;p&gt;Поэтому все файлы для корректной работы должны иметь одинаковое количество строк. &lt;/p&gt;&lt;p&gt;Сначала запускаемся в режиме Setup Profiles&amp;Accounts чтобы войти либо зарегистривровать аккаунты. После того как профиля созданы запускаемся в режиме Open Range of Accs либо Open Accs List. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Важно! Софт не сможет войти в сервер Eclipse, потому аккаунт уже должен быть там предварительно&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Файлы, которые нужно заполнить&lt;/strong&gt; &lt;/p&gt;&lt;ul style=&quot;margin-left: -20px;&quot;&gt;&lt;li&gt;&lt;code&gt;privates.txt&lt;/code&gt; - Приватные ключи от ваших аккаунтов.&lt;/li&gt;&lt;li&gt;&lt;code&gt;proxies.txt&lt;/code&gt; - прокси в формате логин:пароль@ип:порт&lt;/li&gt;&lt;li&gt;&lt;code&gt;invites.txt&lt;/code&gt; - сюда можно закинуть либо свои инвайты, либо собирать софтом с новых аккаунтов&lt;/li&gt;&lt;li&gt;&lt;code&gt;discords.txt&lt;/code&gt; - dis tokens&lt;/li&gt;&lt;li&gt;&lt;code&gt;twitters.txt&lt;/code&gt; - twitter tokens&lt;/li&gt;&lt;/ul&gt;" en="&lt;p&gt;&lt;strong&gt;Working with Files&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;The logic of the software operation is that data correspondence in all files is line-by-line. That is, the Profile at index 0 will work with information from lines at index 0, the profile at index 5 will work with lines at index 5, and so on. &lt;/p&gt;&lt;p&gt;Therefore, all files must have the same number of lines to work correctly. &lt;/p&gt;&lt;p&gt;First, run in &lt;strong&gt;Setup Profiles &amp; Accounts&lt;/strong&gt; mode to log in or register accounts. Once the profiles are created, run in &lt;strong&gt;Open Range of Accs&lt;/strong&gt; or &lt;strong&gt;Open Accs List&lt;/strong&gt; mode. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Important! The software will not be able to log in to the Eclipse server, so the account must already be there in advance&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Files that need to be filled out&lt;/strong&gt; &lt;/p&gt;&lt;ul style=&quot;margin-left: -20px;&quot;&gt;&lt;li&gt;&lt;code&gt;privates.txt&lt;/code&gt; - Private keys of your accounts.&lt;/li&gt;&lt;li&gt;&lt;code&gt;proxies.txt&lt;/code&gt; - proxies in the format &lt;code&gt;login:password@ip:port&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;invites.txt&lt;/code&gt; - You can put either your invites here or collect new ones with the software from new accounts.&lt;/li&gt;&lt;li&gt;&lt;code&gt;discords.txt&lt;/code&gt; - dis tokens&lt;/li&gt;&lt;li&gt;&lt;code&gt;twitters.txt&lt;/code&gt; - twitter tokens&lt;/li&gt;&lt;/ul&gt;"/>
+               <Info en="&#10;**Working with Files**&#10;&#10;The logic of the software operation is that data correspondence in all files is line-by-line. That is, the Profile at index 0 will work with information from lines at index 0, the profile at index 5 will work with lines at index 5, and so on.&#10;&#10;Therefore, all files must have the same number of lines to work correctly.&#10;&#10;First, run in **Setup Profiles &amp; Accounts** mode to log in or register accounts. Once the profiles are created, run in **Open Range of Accs** or **Open Accs List** mode.&#10;&#10;**Important! The software will not be able to log in to the Eclipse server, so the account must already be there in advance**&#10;&#10;**Files that need to be filled out**&#10;&#10;- `privates.txt` - Private keys of your accounts.&#10;- `proxies.txt` - proxies in the format `login:password@ip:port`.&#10;- `invites.txt` - You can put either your invites here or collect new ones with the software from new accounts.&#10;- `discords.txt` - dis tokens&#10;- `twitters.txt` - twitter tokens" ru="**Работа с файлами**&#10;&#10;Логика работы софта заключается в том, что везде соответствие данных во всех файлах построчное. То есть, Профиль под индексом 0 будет работать с информацией из строк с индексом 0, профиль с индексом 5 будет работать с строками с индексом 5 и т.п.&#10;&#10;Поэтому все файлы для корректной работы должны иметь одинаковое количество строк.&#10;&#10;Сначала запускаемся в режиме Setup Profiles&amp;Accounts чтобы войти либо зарегистривровать аккаунты. После того как профиля созданы запускаемся в режиме Open Range of Accs либо Open Accs List.&#10;&#10;**Важно! Софт не сможет войти в сервер Eclipse, потому аккаунт уже должен быть там предварительно**&#10;&#10;**Файлы, которые нужно заполнить**&#10;&#10;- `privates.txt` - Приватные ключи от ваших аккаунтов.&#10;- `proxies.txt` - прокси в формате логин:пароль@ип:порт&#10;- `invites.txt` - сюда можно закинуть либо свои инвайты, либо собирать софтом с новых аккаунтов&#10;- `discords.txt` - dis tokens&#10;- `twitters.txt` - twitter tokens"/>
+               <ComputedInfo en="&lt;p&gt;&lt;strong&gt;Working with Files&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;The logic of the software operation is that data correspondence in all files is line-by-line. That is, the Profile at index 0 will work with information from lines at index 0, the profile at index 5 will work with lines at index 5, and so on. &lt;/p&gt;&lt;p&gt;Therefore, all files must have the same number of lines to work correctly. &lt;/p&gt;&lt;p&gt;First, run in &lt;strong&gt;Setup Profiles &amp; Accounts&lt;/strong&gt; mode to log in or register accounts. Once the profiles are created, run in &lt;strong&gt;Open Range of Accs&lt;/strong&gt; or &lt;strong&gt;Open Accs List&lt;/strong&gt; mode. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Important! The software will not be able to log in to the Eclipse server, so the account must already be there in advance&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Files that need to be filled out&lt;/strong&gt; &lt;/p&gt;&lt;ul style=&quot;margin-left: -20px;&quot;&gt;&lt;li&gt;&lt;code&gt;privates.txt&lt;/code&gt; - Private keys of your accounts.&lt;/li&gt;&lt;li&gt;&lt;code&gt;proxies.txt&lt;/code&gt; - proxies in the format &lt;code&gt;login:password@ip:port&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;invites.txt&lt;/code&gt; - You can put either your invites here or collect new ones with the software from new accounts.&lt;/li&gt;&lt;li&gt;&lt;code&gt;discords.txt&lt;/code&gt; - dis tokens&lt;/li&gt;&lt;li&gt;&lt;code&gt;twitters.txt&lt;/code&gt; - twitter tokens&lt;/li&gt;&lt;/ul&gt;" ru="&lt;p&gt;&lt;strong&gt;Работа с файлами&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;Логика работы софта заключается в том, что везде соответствие данных во всех файлах построчное. То есть, Профиль под индексом 0 будет работать с информацией из строк с индексом 0, профиль с индексом 5 будет работать с строками с индексом 5 и т.п. &lt;/p&gt;&lt;p&gt;Поэтому все файлы для корректной работы должны иметь одинаковое количество строк. &lt;/p&gt;&lt;p&gt;Сначала запускаемся в режиме Setup Profiles&amp;Accounts чтобы войти либо зарегистривровать аккаунты. После того как профиля созданы запускаемся в режиме Open Range of Accs либо Open Accs List. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Важно! Софт не сможет войти в сервер Eclipse, потому аккаунт уже должен быть там предварительно&lt;/strong&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Файлы, которые нужно заполнить&lt;/strong&gt; &lt;/p&gt;&lt;ul style=&quot;margin-left: -20px;&quot;&gt;&lt;li&gt;&lt;code&gt;privates.txt&lt;/code&gt; - Приватные ключи от ваших аккаунтов.&lt;/li&gt;&lt;li&gt;&lt;code&gt;proxies.txt&lt;/code&gt; - прокси в формате логин:пароль@ип:порт&lt;/li&gt;&lt;li&gt;&lt;code&gt;invites.txt&lt;/code&gt; - сюда можно закинуть либо свои инвайты, либо собирать софтом с новых аккаунтов&lt;/li&gt;&lt;li&gt;&lt;code&gt;discords.txt&lt;/code&gt; - dis tokens&lt;/li&gt;&lt;li&gt;&lt;code&gt;twitters.txt&lt;/code&gt; - twitter tokens&lt;/li&gt;&lt;/ul&gt;"/>
                <UnderSpoiler>1</UnderSpoiler>
-               <SpoilerTitle ru="Логика работы" en="Works guide"/>
+               <SpoilerTitle en="Works guide" ru="Логика работы"/>
           </Model>
           <Defaults/>
      </ModelList>
